@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
                 greeting = "안녕, ${name}님~"
 
             }else{
-                greeting = "너의 이름은?"
+                greeting = "너의 이름은 ?"
             }
             textViewGreeting.text = greeting
             textViewGreeting.visibility = View.VISIBLE
