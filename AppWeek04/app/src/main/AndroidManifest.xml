@@ -22,6 +22,9 @@
         </activity>
         <activity android:name="GreetingActivity" android:exported="false"/>
         <activity android:name=".ColorActivity" android:exported="false"/>
+        <activity
+            android:name=".CounterActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
