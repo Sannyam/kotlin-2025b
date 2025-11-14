@@ -53,12 +53,12 @@ dependencies {
 
     // Room database
     val roomVersion = "2.8.3"
-    implementation("androidx.room:room-runtime:${roomVersion}")
-    implementation("androidx.room:room-ktx:${roomVersion}")
-    kapt("androidx.room:room-compiler:${roomVersion}")
+    implementation("androidx.room:room-runtime:$roomVersion")
+    implementation("androidx.room:room-ktx:$roomVersion")
+    kapt("androidx.room:room-compiler:$roomVersion")
 
     // coroutine
-    implementation("org.jetbrains.kotlinx:kotlinx-corutines-android:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
